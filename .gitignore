@@ -5,7 +5,6 @@ IlluminatedCloud
 
 # VS Code
 .vscode
-config/
 
 .anonymous.cls
 sfdx-project.json
