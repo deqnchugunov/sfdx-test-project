@@ -11,3 +11,5 @@ sfdx-project.json
 
 server.key
 config/server.key
+
+node_modules
