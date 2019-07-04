@@ -1,3 +1,9 @@
+var junitReporter = new jasmineReporters.JUnitXmlReporter({
+    savePath: '..',
+    consolidateAll: false
+});
+
+jasmine.getEnv().addReporter(junitReporter);
 describe("Lightning Component Testing Examples", function () {
     afterEach(function () {
         $T.clearRenderedTestComponents();
